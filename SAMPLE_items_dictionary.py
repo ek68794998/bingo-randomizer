@@ -28,5 +28,8 @@ items_list = {
 		[ "Do thing U" ],
 		[ "Do thing V" ],
 		[ "Do thing W" ],
+		[ "Do thing X" ],
+		[ "Do thing Y" ],
+		[ "Do thing Z" ],
 	],
 }

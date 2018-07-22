@@ -2,7 +2,7 @@ import copy
 import random
 import re
 
-from items_dictionary import items_list
+from SAMPLE_items_dictionary import items_list
 
 def get_random_task(task_list, rand):
 	task = rand.choice(task_list)
