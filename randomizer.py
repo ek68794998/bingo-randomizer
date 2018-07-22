@@ -43,7 +43,7 @@ def randomize_card(width, height, items, seed):
 
 	return chosen_squares[0:(width * height)]
 
-random_seed = 243674 # random.randint(100000, 999999)
+random_seed = random.randint(100000, 999999)
 bingo_height = 5
 bingo_width = 5
 
