@@ -1,3 +1,11 @@
+items_template = [
+	[ None, None, None, None, None ],
+	[ None, None, None, None, None ],
+	[ "category3", "category2", "category1", "category2", "category3" ],
+	[ None, None, None, None, None ],
+	[ None, None, None, None, None ],
+]
+
 items_list = {
 	"category1": [
 		[ "Do thing A" ],
