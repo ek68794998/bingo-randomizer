@@ -26,7 +26,7 @@ def get_next_random_task_category(categories, items, rand):
 		if len(items[category]) > 0:
 			return category
 
-	return None
+	raise Exception("No items left to pick from for category list: " + str(categories))
 
 def get_task_from_list(task_list, rand):
 	task = rand.choice(task_list)
@@ -57,6 +57,7 @@ def randomize_card(template, items, seed):
 
 	for (y, x) in template_indices:
 		category = get_next_random_task_category(card[y][x], shuffled_items, rand)
+
 		card[y][x] = get_task_from_list(shuffled_items[category][0], rand)
 		del shuffled_items[category][0]
 
